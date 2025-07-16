@@ -1,0 +1,38 @@
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container-fluid {
+    position: relative;
+    min-height: 110px;
+}
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+}
+
+.navbar-brand img {
+    display: block;
+    height: 150px;
+    object-fit: contain;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 100px;
+    }
+
+    .navbar-nav.flex-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
