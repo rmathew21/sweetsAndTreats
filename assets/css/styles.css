@@ -1,3 +1,8 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff8f6;
+    color: #4b2e2e;
+}
 .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -24,10 +29,6 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
-/* .container .coverPic {
-    object-fit: contain;
-} */
 
 .hero-container {
     position: relative;
@@ -67,9 +68,107 @@
     font-family: "Dancing Script", cursive;
 }
 
-/* .footerSocials {
-    background-color: rgba(255, 255, 0, 0.2);
-} */
+/* About page */
+
+.mainContent {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.aboutText {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.aboutText h1,
+.aboutOptions h2 {
+    font-weight: 700;
+    color: #d65a8e;
+    margin-bottom: 1.5rem;
+}
+
+.aboutText h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto 3rem auto;
+    text-align: center;
+    line-height: 1.8;
+    color: #5e3b3b;
+}
+
+.card {
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(214, 90, 142, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(214, 90, 142, 0.15);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card-title {
+    margin-top: 1.5rem;
+    color: #d65a8e;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #5e3b3b;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.card .btn {
+    background-color: #d65a8e;
+    border: none;
+    margin-top: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card .btn:hover {
+    background-color: #b74b79;
+}
+
+/* Footer */
+#footer {
+    background-color: #f8eaea;
+    border-top: 1px solid #e7cfd3;
+}
+
+.footerName,
+.footerCompany {
+    font-size: 0.95rem;
+    color: #7c4c4c;
+}
+
+.footerCompany a {
+    color: #d65a8e;
+    text-decoration: none;
+}
+
+.footerCompany a:hover {
+    text-decoration: underline;
+}
+
+.footerSocials a {
+    font-size: 1.5rem;
+    color: #b74b79;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
 
 .footerSocials i {
     display: inline-block;
@@ -88,14 +187,13 @@
 .insta {
     all: unset;
     font-size: 2rem;
-    color: #E1306C;
+    /* color: #E1306C; */
     transition: color 0.3s ease;
 
     /* display: inline-block; */
     /* vertical-align: middle; */
     /* margin: 0 0.5rem; */
 }
-
 
 .insta:hover {
     color: #c13584;
@@ -110,35 +208,6 @@
 .facebook:hover {
     color: #0e5dc4;
 }
-
-.aboutText {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-.aboutOptions h2 {
-    margin-bottom: 5rem;
-}
-
-.card-img-top {
-    height: 250px;
-    object-fit: cover;
-}
-
-.card {
-    margin-top: 1.5rem;
-    
-}
-
-.card-title {
-    margin-top: 1.5rem;
-}
-
-.btn {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
 
 @media (max-width: 768px) {
     .navbar-brand img {
