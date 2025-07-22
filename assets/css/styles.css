@@ -172,6 +172,33 @@ body {
     background-color: #b74b79;
 }
 
+/* Gallery  */
+.gallery-row {
+    margin-bottom: 2rem;
+}
+
+.my-gallery a {
+    display: block;
+    margin-bottom: 15px;
+}
+.gallery-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    /* background-color: #fff; */
+     /* aspect-ratio: 4/3; */
+}
+
+/* .frozenCake {
+    height: 350px;
+} */
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
 /* Footer */
 #footer {
     background-color: #f8eaea;
