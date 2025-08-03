@@ -146,19 +146,13 @@
 
       
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    <!-- PhotoSwipe JS -->
-    <script src="https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js" type="module"></script>
-    <script type="module">
-        import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
-
-        const lightbox = new PhotoSwipeLightbox({
-            gallery: '.my-gallery',
-            children: 'a',
-            pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.js')
-        });
-
-        lightbox.init();
-    </script>
+       <!-- Bootstrap -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+       <!-- global JS -->
+       <script src="assets/js/app.js"></script>
+   
+       <!-- PhotoSwipe JS -->
+       <script type="module" src="assets/js/photoswipe-init.js"></script>
 </body>
 </html>
