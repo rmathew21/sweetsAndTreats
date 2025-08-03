@@ -3,14 +3,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const logo = document.querySelector(".navbar-brand");
     const navbarToggler = document.querySelector(".navbar-toggler");
 
-    if (logo && navbarToggler) {
-        logo.addEventListener("click", function () {
-            const isNavbarExpanded = navbarToggler.getAttribute("aria-expanded") === "true";
-            const isMobile = window.innerWidth <= 991;
+    // if (logo && navbarToggler) {
+    //     logo.addEventListener("click", function () {
+    //         const isNavbarExpanded = navbarToggler.getAttribute("aria-expanded") === "true";
+    //         const isMobile = window.innerWidth <= 991;
 
-            if (isNavbarExpanded && isMobile) {
-                navbarToggler.click();
-            }
-        });
-    }
+    //         if (isNavbarExpanded && isMobile) {
+    //             navbarToggler.click();
+    //         }
+    //     });
+    // }
 });
