@@ -178,6 +178,14 @@ body {
     margin-bottom: 2rem;
 }
 
+.galleryText {
+    margin-top: 5rem;
+}
+
+.my-gallery {
+    margin-top: 5rem;
+}
+
 .my-gallery a {
     display: block;
     margin-bottom: 15px;
@@ -201,6 +209,30 @@ body {
     transform: scale(1.03);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+}
+
+/* contact us */
+.contact {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact-form {
+    max-width: 700px;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #fdf6f9;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.formSection {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+}
+
+.formSection .submitBtn {
+    text-align: center;
 }
 
 /* Footer */
