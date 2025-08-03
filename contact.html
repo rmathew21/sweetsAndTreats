@@ -12,9 +12,18 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg customNavbar">
-        <div class="container-fluid justify-content-between align-items-center">
-            <div class="d-flex">
-                <ul class="navbar-nav flex-row">
+        <div class="container-fluid position-relative">
+            <!-- Hamburger Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="index.html" class="navbar-brand mx-auto">
+                <img src="/assets/images/sweetsAndTreatsBW.png" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+            <!-- Collapsible Nav Links -->
+            <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row flex-lg-row">
                     <li class="nav-item mx-2">
                         <a href="cakes.html" class="nav-link">Custom Cakes</a>
                     </li>
@@ -25,12 +34,7 @@
                         <a href="cookies.html" class="nav-link">Cookies</a>
                     </li>
                 </ul>
-            </div>
-            <a class="navbar-brand mx-auto" href="index.html">
-                <img src="/assets/images/sweetsAndTreatsBW.png" alt="Logo" class="d-inline-block align-text-top">
-            </a>
-            <div class="d-flex">
-                <ul class="navbar-nav flex-row">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row flex-lg-row">
                     <li class="nav-item mx-2">
                         <a href="about.html" class="nav-link">About</a>
                     </li>
@@ -41,7 +45,7 @@
                         <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </div>  
         </div>
       </nav>
 
