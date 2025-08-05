@@ -350,6 +350,27 @@ body {
         text-decoration: underline;
     }
 
+    /* left&right */
+    .nav-columns {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .nav-columns .navbar-nav {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0.3rem 0;
+    }
+
+    .navbar-nav .nav-link::after {
+        display: none;
+    }
+
     .hero-text {
         font-size: 1.5rem;
     }
